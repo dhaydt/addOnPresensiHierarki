@@ -23,7 +23,9 @@ class EmployeeSuperiorController extends Controller
             return view('access-denied');
         }
 
-        return view('pages.superior-livewire');
+        return redirect()->route('dropdown_bawahan');
+
+        // return view('pages.superior-livewire');
     }
 
     public function dropdown_bawahan(Request $request)

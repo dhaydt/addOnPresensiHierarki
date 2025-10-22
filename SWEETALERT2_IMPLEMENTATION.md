@@ -11,6 +11,8 @@ Dokumentasi implementasi SweetAlert2 untuk menggantikan alert JavaScript native 
 ### 1. **CDN SweetAlert2**
 Ditambahkan di `resources/views/pages/dropdown-bawahan.blade.php`:
 
+
+
 ```html
 <!-- SweetAlert2 -->
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
